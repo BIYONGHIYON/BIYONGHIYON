@@ -1,4 +1,4 @@
-<h1 align="center">동국대학교 멀티미디어공학과 이병현입니다.</h1>
+<h1 align="center">동국대학교 멀티미디어공학과 이병현</h1>
 
 <p align="center">
   <a href="https://topout-portfolio.vercel.app/">
