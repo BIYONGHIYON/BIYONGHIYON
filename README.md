@@ -1,4 +1,4 @@
-<h1 align="center">안녕하세요, 이병현입니다 👋</h1>
+<h1 align="center">안녕하세요</h1>
 
 <p align="center">
   동국대학교 멀티미디어공학과
