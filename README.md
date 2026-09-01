@@ -89,18 +89,6 @@ Unity와 C#으로 개발한 2.5D 로컬 협동 퍼즐 플랫폼 게임
 
 `Unity` · `C#` · `2.5D` · `Local Co-op`
 
-### 📁 [FileDrop](https://github.com/BIYONGHIYON/FileDrop)
-
-팀 프로젝트 등에서 간편하게 사용할 수 있는 웹 기반 파일 공유 서비스
-
-`JavaScript` · `Web` · `File Sharing`
-
-### 🎹 [KeyBand](https://github.com/BIYONGHIYON/KeyBand)
-
-키보드로 피아노와 드럼을 연주할 수 있는 웹 서비스
-
-`HTML` · `CSS` · `JavaScript` · `Web Audio`
-
 ---
 
 ## 🔍 관심 분야
