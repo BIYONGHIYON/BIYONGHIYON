@@ -134,4 +134,4 @@ https://github.com/user-attachments/assets/5ab698a2-caba-4773-ac90-e37cc6a2ec21
   <img src="https://img.shields.io/badge/On--device_AI-412991?style=flat-square&logo=openai&logoColor=white" alt="On-device AI" />
 </p>
 
-컴퓨터 비전 · 카메라 및 영상 처리 · 온디바이스 분석 · 초분광 영상 복원
+컴퓨터 비전 · 카메라 및 영상 처리 · 온디바이스 분석 · Multimodal 영상 융합
