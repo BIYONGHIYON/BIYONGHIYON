@@ -97,11 +97,11 @@ TopOut은 사용자의 움직임을 기기 안에서 분석해 등반 구간을 
 
 `Python` · `PyTorch` · `Hyperspectral Imaging` · `Super-Resolution`
 
-![RGB11 결과 예시: LR HSI · RGB 입력 · 예측 · 정답](https://raw.githubusercontent.com/BIYONGHIYON/RGB-HSI-SR/main/SSA-MRN/docs/assets/rgb11_gradient_suite/sample_01.png)
+![RGB11 결과 예시: LR HSI · RGB 입력 · 예측 · 정답](https://raw.githubusercontent.com/BIYONGHIYON/RGB-HSI-SR/main/RGB-HSI/experiments/14_hsi_gradient_loss/results/figures/sample_01.png)
 
 왼쪽부터 **LR HSI · RGB 입력 · 복원 결과 · 정답**입니다. HSI 패널은 선택한 세 밴드를 컬러로 표현했으며, 성능 지표는 전체 204밴드로 계산합니다.
 
-[연구 코드·실험 결과](https://github.com/BIYONGHIYON/RGB-HSI-SR) · [알고리즘 설명](https://github.com/BIYONGHIYON/RGB-HSI-SR/blob/main/SSA-MRN/docs/research.md) · [204밴드 웹뷰어](https://biyonghiyon.github.io/RGB-HSI-SR/ssa-mrn/)
+[연구 코드·실험 결과](https://github.com/BIYONGHIYON/RGB-HSI-SR) · [알고리즘 설명](https://github.com/BIYONGHIYON/RGB-HSI-SR/blob/main/RGB-HSI/docs/research.md) · [204밴드 웹뷰어](https://biyonghiyon.github.io/RGB-HSI-SR/ssa-mrn/)
 
 ---
 
