@@ -1,11 +1,8 @@
 <h1 align="center">동국대학교 멀티미디어공학과 이병현</h1>
 
 <p align="center">
-  <a href="https://topout-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.instagram.com/topout_app/">
-    <img src="https://img.shields.io/badge/TopOut_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="TopOut Instagram" />
+  <a href="https://biyonghiyon.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
@@ -82,30 +79,44 @@ TopOut은 사용자의 움직임을 기기 안에서 분석해 등반 구간을 
 
 ---
 
-## 🔬 RGB–HSI 초해상도 연구
+## 🛰️ 위성영상 팬샤프닝 연구
 
-### [RGB-HSI-SR](https://github.com/BIYONGHIYON/RGB-HSI-SR)
+### [CtrS](https://github.com/BIYONGHIYON/CtrS)
 
-고해상도 RGB의 공간 정보를 활용해 저해상도 초분광 영상(HSI)의 해상도를 높이는 연구입니다. SSA-MRN을 기반으로 공간 경계를 복원하면서 각 픽셀의 분광 정보를 유지하는 방법을 실험합니다.
+고해상도 흑백 위성영상(PAN)의 공간 정보와 저해상도 다중분광영상(MS)의 색·분광 정보를 결합해 고해상도 MS를 복원하는 팬샤프닝 연구입니다. 동국대학교 종합설계1 CtrS팀 팀장으로 4명이 함께 SSA-MRN의 성능을 개선하고 있습니다.
 
-- **204밴드 HSI 복원:** LIB-HSI의 합성 ×4 축소 데이터를 이용해 공간 초해상도 평가
-- **구조 비교:** RGB 채널별 분광 특징 추출과 공동 디코더, 23탭 보간 및 LR 평균 일관성 보정
-- **손실 함수 실험:** 값의 오차와 스펙트럼 모양, 영상 경계를 함께 고려해 PSNR·SAM 평가
-- **결과 공개:** 실험별 수치·그래프·비교 이미지와 204밴드 슬라이더 웹뷰어 제공
+- **새 기준 모델 C2MS:** 원본 SSA-MRN에 병렬 가지를 더하고, 원래 학습 쌍과 2배 거친 학습 쌍을 섞어 학습
+- **QB 성능:** 원본 대비 RR PSNR +0.87 dB (3시드 평균)
+- **다른 센서:** GF2·WV3에서 RR PSNR +2.05·+1.01 dB, 학습하지 않은 WV2에서도 +0.83 dB (3시드 평균)
+- **색 정확도:** 학습하지 않은 WV2에서 가장 큰 밴드 밝기 치우침 7.2% → 1.0%
 
-합성 축소 평가와 실제 센서 환경의 성능을 구분하고, 동일 조건의 대조군과 비교해 개선 효과를 확인합니다.
+`Python` · `PyTorch` · `Pansharpening` · `Remote Sensing`
 
-`Python` · `PyTorch` · `Hyperspectral Imaging` · `Super-Resolution`
+![WV2 결과 예시: LR MS · PAN · 원본 SSA-MRN · C2MS · 정답](https://raw.githubusercontent.com/BIYONGHIYON/CtrS/main/SSA-MRN/experiments/performance/54_multi_sensor_scale_mixed_training/results/images/WV2_C2MS_vs_original/full_scene_00.png)
 
-![RGB11 결과 예시: LR HSI · RGB 입력 · 예측 · 정답](https://raw.githubusercontent.com/BIYONGHIYON/RGB-HSI-SR/main/RGB-HSI/experiments/14_hsi_gradient_loss/results/figures/sample_01.png)
+위 줄 왼쪽부터 **LR MS · PAN 입력 · 원본 SSA-MRN · C2MS · 정답**, 아래 줄은 원본과 C2MS의 오차 지도입니다(밝을수록 오차가 큼). WV3로 학습한 모델을 학습하지 않은 WV2 장면에 적용한 결과입니다.
 
-왼쪽부터 **LR HSI · RGB 입력 · 복원 결과 · 정답**입니다. HSI 패널은 선택한 세 밴드를 컬러로 표현했으며, 성능 지표는 전체 204밴드로 계산합니다.
-
-[연구 코드·실험 결과](https://github.com/BIYONGHIYON/RGB-HSI-SR) · [알고리즘 설명](https://github.com/BIYONGHIYON/RGB-HSI-SR/blob/main/RGB-HSI/docs/research.md) · [204밴드 웹뷰어](https://biyonghiyon.github.io/RGB-HSI-SR/ssa-mrn/)
+[연구 코드·실험 결과](https://github.com/BIYONGHIYON/CtrS)
 
 ---
 
 ## 🛠️ 다른 프로젝트
+
+### 📡 [Linkcast](https://github.com/BIYONGHIYON/linkcast)
+
+USB 캡처보드나 화면 공유로 입력한 콘솔·PC 화면을 링크 하나로 공유하는 **소규모 실시간 방송 서비스**입니다. 송출자가 최대 5명에게 영상을 보내고, 모두가 브라우저에서 음성으로 대화할 수 있습니다.
+
+- **초저지연 송출:** WebRTC P2P로 최대 1080p 60fps 영상 전송
+- **음성 통화:** 송출자와 참가자 전원이 브라우저에서 대화
+- **레이저 모드:** 클릭·터치 드래그로 화면 위 포인터 공유
+- **다양한 입력:** USB 캡처보드, 프로그램 창·전체 화면·브라우저 탭 공유
+- **시그널링:** Cloudflare Workers · Durable Objects로 방 입장과 연결 관리
+
+`TypeScript` · `React` · `WebRTC` · `Cloudflare Workers`
+
+[서비스 열기](https://linkcast.byeonghyeon383.workers.dev/) · [소스 코드](https://github.com/BIYONGHIYON/linkcast)
+
+---
 
 ### 🚀 [NODE](https://github.com/BIYONGHIYON/NODE)
 
