@@ -8,15 +8,6 @@
 
 <p align="center">
   <a href="https://biyonghiyon.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-284B7A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.instagram.com/topout_app/"><img src="https://img.shields.io/badge/@topout__app-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="TopOut Instagram" /></a>
-</p>
-
-<br>
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,kotlin,androidstudio,python,pytorch,c,unity,cs,ts,react,cloudflare,git&perline=12" alt="Swift, Kotlin, Android Studio, Python, PyTorch, C, Unity, C#, TypeScript, React, Cloudflare, Git" />
 </p>
 
 <br>
@@ -51,9 +42,9 @@
 ![GF2](https://img.shields.io/badge/GF2-+2.24_dB-1F6670?style=flat-square)
 ![WV2](https://img.shields.io/badge/WV2_전이-+2.95_dB-1F6670?style=flat-square)
 
-<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/소개_페이지-1F6670?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
+<a href="https://biyonghiyon.github.io/CtrS/portfolio/biyonghiyon/"><img src="https://img.shields.io/badge/소개_페이지-1F6670?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://github.com/BIYONGHIYON/CtrS"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://biyonghiyon.github.io/CtrS-viewer/"><img src="https://img.shields.io/badge/결과_뷰어-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="결과 비교 뷰어" /></a>
+<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/결과_뷰어-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="결과 비교 뷰어" /></a>
 
 </td>
 </tr>
