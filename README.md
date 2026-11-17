@@ -47,7 +47,7 @@
 
 `Swift` · `Kotlin` · `Jetpack Compose` · `Apple Vision` · `MoveNet` · `MobileSAM`
 
-**[소개 페이지](https://topout-portfolio.vercel.app/)** · [GitHub](https://github.com/BIYONGHIYON/TopOut-app) · [App Store](https://apps.apple.com/app/id6790163178) · [Google Play](https://play.google.com/store/apps/details?id=com.topout.cam)
+**[소개 페이지](https://topout-portfolio.vercel.app/)** · [GitHub](https://github.com/BIYONGHIYON/TopOut-app) · [App Store](https://apps.apple.com/app/id6790163178) · [Google Play](https://play.google.com/store/apps/details?id=com.topout.cam) · [Instagram](https://www.instagram.com/topout_app/)
 
 <br>
 
