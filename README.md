@@ -86,6 +86,18 @@ WebRTC P2P 1080p 60fps · 음성 통화 · 레이저 포인터
 
 <br>
 
+## 🐍 Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BIYONGHIYON/BIYONGHIYON/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BIYONGHIYON/BIYONGHIYON/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/BIYONGHIYON/BIYONGHIYON/output/github-snake.svg" alt="기여 그래프를 따라 움직이는 뱀 애니메이션" width="100%" />
+  </picture>
+</p>
+
+<br>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5f86c4,100:1e3a66&height=110&section=footer" alt="" width="100%" />
 </p>
