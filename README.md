@@ -34,9 +34,10 @@
 
 ![MAU](https://img.shields.io/badge/최대_MAU-약_110명-284B7A?style=flat-square)
 
-<a href="https://topout-portfolio.vercel.app/"><img src="https://img.shields.io/badge/소개-000000?style=flat-square&logo=vercel&logoColor=white" alt="소개" /></a>
+<a href="https://topout-portfolio.vercel.app/"><img src="https://img.shields.io/badge/소개_페이지-284B7A?style=for-the-badge&logo=vercel&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://apps.apple.com/app/id6790163178"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.topout.cam"><img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" /></a>
+<a href="https://www.instagram.com/topout_app/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -50,7 +51,7 @@
 ![GF2](https://img.shields.io/badge/GF2-+2.24_dB-1F6670?style=flat-square)
 ![WV2](https://img.shields.io/badge/WV2_전이-+2.95_dB-1F6670?style=flat-square)
 
-<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/소개-1F6670?style=flat-square&logo=githubpages&logoColor=white" alt="소개" /></a>
+<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/소개_페이지-1F6670?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://github.com/BIYONGHIYON/CtrS"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://biyonghiyon.github.io/CtrS-viewer/"><img src="https://img.shields.io/badge/결과_뷰어-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="결과 비교 뷰어" /></a>
 
@@ -68,7 +69,7 @@ Spring Joint · Line Renderer 로프 스윙 · 행성별 중력
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Platform](https://img.shields.io/badge/Windows_·_macOS-9A4524?style=flat-square)
 
-<a href="https://biyonghiyon.github.io/NODE/"><img src="https://img.shields.io/badge/소개-9A4524?style=flat-square&logo=githubpages&logoColor=white" alt="소개" /></a>
+<a href="https://biyonghiyon.github.io/NODE/"><img src="https://img.shields.io/badge/소개_페이지-9A4524?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://github.com/BIYONGHIYON/NODE"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://github.com/BIYONGHIYON/NODE/releases/latest"><img src="https://img.shields.io/badge/다운로드-2EA44F?style=flat-square&logo=github&logoColor=white" alt="다운로드" /></a>
 
@@ -84,7 +85,7 @@ WebRTC P2P 1080p 60fps · 음성 통화 · 레이저 포인터
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-<a href="https://biyonghiyon.github.io/linkcast/"><img src="https://img.shields.io/badge/소개-4F4594?style=flat-square&logo=githubpages&logoColor=white" alt="소개" /></a>
+<a href="https://biyonghiyon.github.io/linkcast/"><img src="https://img.shields.io/badge/소개_페이지-4F4594?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://github.com/BIYONGHIYON/linkcast"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://linkcast.byeonghyeon383.workers.dev/"><img src="https://img.shields.io/badge/서비스_열기-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="서비스 열기" /></a>
 
