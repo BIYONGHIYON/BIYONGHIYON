@@ -1,148 +1,114 @@
-<h1 align="center">동국대학교 멀티미디어공학과 이병현</h1>
+### 소프트웨어 개발자
 
-<p align="center">
-  <a href="https://biyonghiyon.github.io/portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+# 이병현
 
----
+**문제를 발견하고, 해결을 구현합니다.**
 
-## 🧗 대표 프로젝트
+앱을 개발·출시하고, 컴퓨터비전과 딥러닝을 연구합니다.<br>
+동국대학교 멀티미디어공학과 졸업 예정 개발자입니다.
 
-<div align="center">
-  <img
-    width="130"
-    height="130"
-    alt="TopOut 로고"
-    src="https://github.com/user-attachments/assets/f3f75e67-414c-4a6a-92f2-52b47f9badbd"
-  />
+**[포트폴리오](https://biyonghiyon.github.io/portfolio/)** · [이메일](mailto:pilot803@naver.com)
 
-  <h3>TopOut</h3>
+<br>
 
-  <strong>등반 시작부터 완등 순간까지, 자동으로 찾아주는 클라이밍 촬영 앱</strong>
-</div>
+## 관심 분야와 역량
 
-<br />
+| 분야 | 내용 |
+|---|---|
+| **앱 · 웹 개발** | 기획부터 구현, 출시, 유지보수까지 경험했고 iOS·Android 앱과 실시간 웹 서비스를 직접 배포했습니다. |
+| **컴퓨터비전** | 오픈소스 온디바이스 자세 추정(pose) 모델 여러 개를 직접 벤치마크해 비교하고, 모바일 기기에서 실시간으로 동작하는 영상 분석을 앱에 적용했습니다. |
+| **딥러닝** | 영상 기반 오픈소스 팬샤프닝 모델을 재현하고, 위성영상을 대상으로 구조와 학습 방식을 바꿔 가며 성능을 개선하는 연구를 진행하고 있습니다. |
+| **알고리즘** | 복잡한 문제를 작은 단위로 나누고, 더 효율적인 방법을 비교해 가며 풀어 갑니다. 프로그래밍기초와실습 과목에서 실습조교로 학생들의 실습을 도왔습니다. |
 
-TopOut은 사용자의 움직임을 기기 안에서 분석해 등반 구간을 자동으로 찾아주는 iOS·Android 앱입니다.
+<br>
 
-- iOS와 Android 앱 직접 개발 및 출시
-- 움직임·자세·매트 경계를 활용한 온디바이스 영상 분석
-- 카메라 촬영부터 구간 탐지, 정밀 편집, 갤러리 저장까지 구현
-- 저사양 기기, 메모리, 발열, 배터리 및 촬영 중단 상황 대응
-- 9개 언어 지원 및 실제 사용자 피드백을 기반으로 기능과 사용 흐름 개선
-- 회원가입 없이 사용하며 영상 분석은 기기 안에서 수행
+## 프로젝트
 
-### 🍎 iOS
+<img src="https://github.com/user-attachments/assets/f3f75e67-414c-4a6a-92f2-52b47f9badbd" alt="TopOut 아이콘" width="64" align="left">
 
-<p>
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white" alt="UIKit" />
-  <img src="https://img.shields.io/badge/AVFoundation-000000?style=flat-square&logo=apple&logoColor=white" alt="AVFoundation" />
-  <img src="https://img.shields.io/badge/Vision-5E5CE6?style=flat-square&logo=apple&logoColor=white" alt="Vision" />
-  <img src="https://img.shields.io/badge/Core_ML-147EFB?style=flat-square&logo=apple&logoColor=white" alt="Core ML" />
-</p>
+### TopOut
+모바일 앱 · iOS / Android 출시 · 2026.06 — 현재 · 개인 프로젝트
 
-### 🤖 Android
+<br clear="left">
 
-<p>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/badge/CameraX-3DDC84?style=flat-square&logo=android&logoColor=white" alt="CameraX" />
-  <img src="https://img.shields.io/badge/LiteRT-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="LiteRT" />
-  <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
-</p>
+등반 시작부터 완등 순간까지 자동으로 찾아주는 실내 클라이밍 촬영 앱입니다. 긴 영상을 다시 돌려보며 장면을 찾는 대신, 기기 안에서 움직임과 자세를 분석해 필요한 구간만 골라 줍니다.
 
-### 🔗 TopOut 바로가기
+- App Store · Google Play 출시 (v3.0), 사용자 피드백으로 계속 업데이트
+- 기기 내 자세 추정과 MobileSAM으로 매트 경계 자동 탐지
+- 한 번의 촬영에서 여러 등반 시도를 자동으로 구분
+- 영상을 서버로 보내지 않는 온디바이스 분석
+- 9개 언어 지원, 한국 외 15개국에서 설치 (전체의 약 23%)
 
-<p>
-  <a href="https://github.com/BIYONGHIYON/TopOut-app">
-    <img src="https://img.shields.io/badge/프로젝트_소개-181717?style=for-the-badge&logo=github&logoColor=white" alt="프로젝트 소개" />
-  </a>
-  <a href="https://apps.apple.com/kr/app/topout/id6790163178">
-    <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store" />
-  </a>
-  <a href="https://play.google.com/store/apps/details?id=com.topout.cam">
-    <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" />
-  </a>
-</p>
+| 누적 설치 (광고 없음) | 최대 MAU (2026.09) | 월간 사용자 중 매주 사용 |
+|:---:|:---:|:---:|
+| **약 210회** | **약 110명** | **약 40%** |
 
-<p>
-  <a href="https://topout-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/TopOut_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="TopOut Portfolio" />
-  </a>
-  <a href="https://www.instagram.com/topout_app/">
-    <img src="https://img.shields.io/badge/@topout__app-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="TopOut Instagram" />
-  </a>
-</p>
+<sub>클라이밍을 하는 사람만을 위한 앱이라 사용자 층이 좁고, 클라이머 대부분이 한 달에 2~3회 정도 클라이밍장에 가기 때문에 매일 쓰이는 앱이 아닙니다. 그래서 매일 사용(DAU) 대신 주간 재사용을 지표로 봤습니다. 월간 사용자 1명이 한 달에 약 2주 꼴로 앱을 열어, 운동하러 간 날 상당수를 TopOut으로 촬영합니다. 주간 사용 비율은 iOS 기준(사용 데이터 공유에 동의한 기기)입니다.</sub>
 
----
+`Swift` · `Kotlin` · `Jetpack Compose` · `Apple Vision` · `MoveNet` · `MobileSAM`
 
-## 🛰️ 위성영상 팬샤프닝 연구
+**[소개 페이지](https://topout-portfolio.vercel.app/)** · [GitHub](https://github.com/BIYONGHIYON/TopOut-app) · [App Store](https://apps.apple.com/app/id6790163178) · [Google Play](https://play.google.com/store/apps/details?id=com.topout.cam)
 
-### [CtrS](https://github.com/BIYONGHIYON/CtrS)
+<br>
 
-고해상도 흑백 위성영상(PAN)의 공간 정보와 저해상도 다중분광영상(MS)의 색·분광 정보를 결합해 고해상도 MS를 복원하는 팬샤프닝 연구입니다. 동국대학교 종합설계1 CtrS팀 팀장으로 4명이 함께 SSA-MRN의 성능을 개선하고 있습니다.
+### CtrS
+딥러닝 연구 · 위성영상 팬샤프닝 · 2026.09 — 현재 · 팀장 · 4인
 
-- **새 기준 모델 C2MS:** 원본 SSA-MRN에 병렬 가지를 더하고, 원래 학습 쌍과 2배 거친 학습 쌍을 섞어 학습
-- **QB 성능:** 원본 대비 RR PSNR +0.87 dB (3시드 평균)
-- **다른 센서:** GF2·WV3에서 RR PSNR +2.05·+1.01 dB, 학습하지 않은 WV2에서도 +0.83 dB (3시드 평균)
-- **색 정확도:** 학습하지 않은 WV2에서 가장 큰 밴드 밝기 치우침 7.2% → 1.0%
+고해상도 흑백 위성영상(PAN)과 저해상도 다중분광영상(MS)을 합쳐 고해상도 컬러 영상을 복원하는 팬샤프닝 연구입니다. 동국대 종합설계1 프로젝트로 SSA-MRN의 성능을 개선하고 있습니다.
 
-`Python` · `PyTorch` · `Pansharpening` · `Remote Sensing`
+- 병렬 가지 · 축척 혼합 학습 · 관측 일치 사영으로 기준 모델 C2MS-SP 채택
+- 원본 SSA-MRN 대비 RR PSNR QB +0.94 · GF2 +2.24 · WV3 +1.14 dB (3시드 평균)
+- 학습하지 않은 센서(WV2)에서 +2.95 dB, 색 치우침 7.2% → 0.1% (밴드별 센서 보정)
+- 연산을 66%로 줄인 경량판 C2MS-SP-Lite (C2MS-SP와 0.01–0.03 dB 차이)
 
-![WV2 결과 예시: LR MS · PAN · 원본 SSA-MRN · C2MS · 정답](https://raw.githubusercontent.com/BIYONGHIYON/CtrS/main/SSA-MRN/experiments/performance/54_multi_sensor_scale_mixed_training/results/images/WV2_C2MS_vs_original/full_scene_00.png)
+<img src="https://raw.githubusercontent.com/BIYONGHIYON/CtrS/main/SSA-MRN/docs/images/c2ms_sp/WV2/full_scene_00.png" alt="WV2 장면 0 원본 크기 비교: LR MS·PAN 입력·원본 SSA-MRN·C2MS-SP·C2MS-SP-Lite·정답과 세 모델의 오차 지도" width="100%">
 
-위 줄 왼쪽부터 **LR MS · PAN 입력 · 원본 SSA-MRN · C2MS · 정답**, 아래 줄은 원본과 C2MS의 오차 지도입니다(밝을수록 오차가 큼). WV3로 학습한 모델을 학습하지 않은 WV2 장면에 적용한 결과입니다.
+<sub>WV3로 학습한 모델을 학습하지 않은 센서 WV2에 적용한 RR 장면 0(seed 42)입니다. 위 줄은 입력과 각 모델의 결과·정답, 아래 줄은 오차 지도입니다(밝을수록 오차가 큼). 장면 PSNR은 원본 27.80 → C2MS-SP 30.90 dB입니다(밴드별 센서 보정 포함).</sub>
 
-[연구 코드·실험 결과](https://github.com/BIYONGHIYON/CtrS)
+`PyTorch` · `Computer Vision` · `Pansharpening` · `Remote Sensing`
 
----
+**[소개 페이지](https://biyonghiyon.github.io/CtrS/)** · [GitHub](https://github.com/BIYONGHIYON/CtrS) · [결과 비교 뷰어](https://biyonghiyon.github.io/CtrS-viewer/)
 
-## 🛠️ 다른 프로젝트
+<br>
 
-### 📡 [Linkcast](https://github.com/BIYONGHIYON/linkcast)
+### NODE
+게임 · 2.5D 로컬 협동 플랫포머 · 2026.04 — 2026.06 · 개인 프로젝트
 
-USB 캡처보드나 화면 공유로 입력한 콘솔·PC 화면을 링크 하나로 공유하는 **소규모 실시간 방송 서비스**입니다. 송출자가 최대 5명에게 영상을 보내고, 모두가 브라우저에서 음성으로 대화할 수 있습니다.
+두 우주비행사가 로프로 서로를 이어 우주를 탐험하는 2인 로컬 협동 게임입니다. 파트너나 지형에 로프를 걸고 스윙하며 퍼즐을 풀고, 흩어진 연료통을 모아 다음 행성으로 넘어갑니다.
 
-- **초저지연 송출:** WebRTC P2P로 최대 1080p 60fps 영상 전송
-- **음성 통화:** 송출자와 참가자 전원이 브라우저에서 대화
-- **레이저 모드:** 클릭·터치 드래그로 화면 위 포인터 공유
-- **다양한 입력:** USB 캡처보드, 프로그램 창·전체 화면·브라우저 탭 공유
-- **시그널링:** Cloudflare Workers · Durable Objects로 방 입장과 연결 관리
-
-`TypeScript` · `React` · `WebRTC` · `Cloudflare Workers`
-
-[서비스 열기](https://linkcast.byeonghyeon383.workers.dev/) · [소스 코드](https://github.com/BIYONGHIYON/linkcast)
-
----
-
-### 🚀 [NODE](https://github.com/BIYONGHIYON/NODE)
-
-두 우주비행사가 로프를 이용해 우주를 탐험하는 **2인 로컬 협동 퍼즐 플랫폼 게임**입니다. Unity와 C#으로 개발했으며, 두 플레이어가 움직임과 로프를 조합해 장애물을 넘고 퍼즐을 해결합니다.
-
-- **로프 액션:** 파트너나 지형에 로프를 걸고 스윙하며 이동
-- **행성별 중력:** 무중력·저중력 환경에 따라 달라지는 이동과 퍼즐
-- **협동 퍼즐:** 운석과 지형지물을 밀고 당기며 연료통 수집
-- **탐험과 진행:** 체크포인트를 통과하고 연료를 모아 다음 행성으로 이동
-- **PC 배포:** Windows·macOS 실행 파일 제공
-
-`Unity 2022` · `C#` · `2.5D` · `Local Co-op`
+- 파트너·지형에 거는 로프 스윙 액션
+- 고중력 목성, 무중력 토성 등 행성마다 다른 중력
+- 밀고 당기는 운석과 지형을 활용한 협동 퍼즐
+- Windows · macOS 설치 파일 배포
 
 https://github.com/user-attachments/assets/5ab698a2-caba-4773-ac90-e37cc6a2ec21
 
-[소스 코드·조작 안내](https://github.com/BIYONGHIYON/NODE) · [다운로드](https://github.com/BIYONGHIYON/NODE/releases/latest)
+`Unity` · `C#` · `Local Co-op`
 
----
+**[소개 페이지](https://biyonghiyon.github.io/NODE/)** · [GitHub](https://github.com/BIYONGHIYON/NODE) · [다운로드](https://github.com/BIYONGHIYON/NODE/releases/latest)
 
-## 🔍 관심 분야
+<br>
 
-<p>
-  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/Camera-111111?style=flat-square&logo=camera&logoColor=white" alt="Camera" />
-  <img src="https://img.shields.io/badge/Video_Processing-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Video Processing" />
-  <img src="https://img.shields.io/badge/On--device_AI-412991?style=flat-square&logo=openai&logoColor=white" alt="On-device AI" />
-</p>
+### Linkcast
+웹 서비스 · 실시간 P2P 화면 공유 · 2026.09 — 2026.10 · 개인 프로젝트
 
-컴퓨터 비전 · 카메라 및 영상 처리 · 온디바이스 분석 · Multimodal 영상 융합
+USB 캡처보드나 화면 공유로 입력한 콘솔·PC 화면을 링크 하나로 공유하는 소규모 실시간 방송 서비스입니다. 송출자가 최대 5명에게 영상을 보내고, 모두가 브라우저에서 음성으로 대화할 수 있습니다.
+
+- WebRTC P2P로 최대 1080p 60fps 초저지연 송출
+- 송출자·참가자 전원이 참여하는 음성 통화
+- 클릭·터치 드래그로 포인터를 공유하는 레이저 모드
+- Cloudflare Workers · Durable Objects 기반 시그널링
+
+<img src="https://raw.githubusercontent.com/BIYONGHIYON/portfolio/main/assets/linkcast-landing.jpg" alt="Linkcast 첫 화면: 캡처보드 연결 안내와 입력 설정, 링크 만들고 복사 버튼" width="100%">
+
+<sub>Linkcast에 접속하면 처음 보이는 송출 화면입니다. 캡처보드를 연결하고 링크를 만들어 공유합니다.</sub>
+
+`TypeScript` · `React` · `WebRTC` · `Cloudflare Workers` · `Durable Objects`
+
+**[소개 페이지](https://biyonghiyon.github.io/linkcast/)** · [GitHub](https://github.com/BIYONGHIYON/linkcast) · [서비스 열기](https://linkcast.byeonghyeon383.workers.dev/)
+
+<br>
+
+## Contact
+
+포트폴리오 [biyonghiyon.github.io/portfolio](https://biyonghiyon.github.io/portfolio/) · 이메일 [pilot803@naver.com](mailto:pilot803@naver.com)
