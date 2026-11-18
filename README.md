@@ -26,6 +26,7 @@
 ![MAU](https://img.shields.io/badge/최대_MAU-약_110명-284B7A?style=flat-square)
 
 <a href="https://topout-portfolio.vercel.app/"><img src="https://img.shields.io/badge/소개_페이지-284B7A?style=for-the-badge&logo=vercel&logoColor=white" alt="소개 페이지" height="32" /></a><br>
+<a href="https://github.com/BIYONGHIYON/TopOut-app"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://apps.apple.com/app/id6790163178"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.topout.cam"><img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" /></a>
 <a href="https://www.instagram.com/topout_app/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
