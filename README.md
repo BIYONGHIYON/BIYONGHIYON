@@ -35,17 +35,18 @@
 <td width="50%" valign="top">
 
 ### 🛰️ CtrS
-**위성영상 팬샤프닝 성능 개선 연구 · 4인 팀장**
+**처음 보는 위성에서도 재학습 없이 선명한 팬샤프닝 · 4인 팀장**
 
-기준 모델 **C2MS-SP** · 원본 SSA-MRN 대비 개선
+최종 모델 **SMOC** · 축척 혼합 학습 · 관측 일치 보정 · 밴드별 밝기 보정
 
-![QB](https://img.shields.io/badge/QB-+0.94_dB-1F6670?style=flat-square)
-![GF2](https://img.shields.io/badge/GF2-+2.24_dB-1F6670?style=flat-square)
-![WV2](https://img.shields.io/badge/WV2_전이-+2.95_dB-1F6670?style=flat-square)
+![WV2](https://img.shields.io/badge/처음_보는_위성_WV2-+3.42_dB-1F6670?style=flat-square)
+![QB](https://img.shields.io/badge/QB-+0.93_dB-1F6670?style=flat-square)
+![GF2](https://img.shields.io/badge/GF2-+2.93_dB-1F6670?style=flat-square)
+![WV3](https://img.shields.io/badge/WV3-+1.57_dB-1F6670?style=flat-square)
 
 <a href="https://biyonghiyon.github.io/CtrS/portfolio/biyonghiyon/"><img src="https://img.shields.io/badge/소개_페이지-1F6670?style=for-the-badge&logo=githubpages&logoColor=white" alt="소개 페이지" height="32" /></a><br>
 <a href="https://github.com/BIYONGHIYON/CtrS"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/결과_뷰어-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="결과 비교 뷰어" /></a>
+<a href="https://biyonghiyon.github.io/CtrS/"><img src="https://img.shields.io/badge/결과_비교_사이트-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="결과 비교 사이트" /></a>
 
 </td>
 </tr>
